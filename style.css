@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navbar {
+    background: #f1f7ed;
+    transition: none;
+    min-height: 77px;
+    padding: .5rem 0;
+    box-shadow: 1px 1px 5px 1px #85C226;
+}
+.navbar-brand{
+    img{
+        width: 200px;
+    }
+}
+.navbar-light{
+    .navbar-nav {
+        .nav-link {
+            color: hsl(0, 0%, 13%);
+        }
+    }
+}
